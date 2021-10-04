@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "Temperature Changer",
+			"path": "."
+		},
+		{
+			"path": "../Responsive images markup"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

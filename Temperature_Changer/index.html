@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Changer</title>
+        <link rel="stylesheet" href="main_css.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">The Temperature Changer</h1>
+            <br>
+            <section class="section1">
+                <div class="input_box">
+                    <h2>Current Temperature</h2>
+                    <input type="number" id="temp_current">
+                    <select name="Temp_current_cat" style="width: 10%;" id="Temp_current_cat" onchange="check_current()">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit">°F</option>
+                    </select>
+                    <br>
+                    <h2>Convert To</h2>
+                    <select name="temp_change_cat" style="width: 30%;" id="temp_change_cat" onchange="check_change()">
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                    </select>
+                    <br>
+                    <button class="convert_btn" onclick="calculations()">Convert</button>
+                </div>
+            </section>
+            <section class="section2">
+                <div class="total_para">
+                    <p id="results">The Convertion <br>Temperature</p>
+                </div>
+            </section>
+            <div class="img_sun">
+                <img src="Sun.png" class="hide">
+            </div>
+            
+        </div>
+        <script src="Javascript.js"></script>
+        
+    </body>
+</html>

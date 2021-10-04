@@ -1,56 +1,4 @@
 var calc_results = 0
-/*
-function check() {
-    var temperature_current_cat = document.getElementById("Temp_current_cat").value;
-    var temperature_change_cat = document.getElementById("temp_change_cat").value;
-    if (temperature_current_cat == "fahrenheit"){
-        temperature_change_cat.value = 1;
-
-    }
-    if(temperature_current_cat == "celsius"){
-        temperature_change_cat.value = 0;
-    }
-}
-*/
-/*
-var lookup = {
-    'celsius': ['Fahrenheit'],
-    'fanhrenheit': ['Celcius'],
- };
- 
- // When an option is changed, search the above for matching choices
- $('Temp_current_cat').on('change', function() {
-    // Set selected option as variable
-    var selectValue = $(this).val();
- 
-    // Empty the target field
-    $('#change_cat').empty();
-    
-    // For each chocie in the selected option
-    for (i = 0; i < lookup[selectValue].length; i++) {
-       // Output choice in the target field
-       ('#temp_change_cat').append("<option value='" + lookup[selectValue][i] + "'>" + lookup[selectValue][i] + "</option>");
-    }
- });
-*/
-/*
-function calculations() {
-    if (change_cat == "fanrenheit" ){
-        calc_results = 5/9 * (current_temp - 32);
-        results.innerHTML = calc_results + "°C";
-        console.log("this works")
-    }
-    if (change_cat == "celsius") {
-        calc_results = (9/5 * current_temp) + 32;
-        results.innerHTML = calc_results + "°F";
-        console.log("this works 2")
-        
-    }
-    else{
-        console.log("this doesnt work")
-    }
-}
-*/
 
 function calculations() {
     var current_temp = document.getElementById("temp_current").value;
@@ -107,15 +55,5 @@ function check_change() {
     }
     
 }
-/*
-function calculations(){
-    if (document.input_box.Temp_current_cat.value == "Fahrenheit"){
-        console.log("helloo")
-    }
-    else{
-        console.log("done over this")
-    }
-}
-*/
 
 
